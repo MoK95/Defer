@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>glsl;txt;xml;bmp;bin;gif;jpg;jpeg;jpe;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Document Files">
+      <UniqueIdentifier>{5f128487-b3d2-4852-8b64-2d5252b623d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{2a1b630d-3a9f-4962-b4e0-3463c139b09a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{97ee8382-6429-47d5-9738-18c1fd2185e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{1aea7b57-a274-455a-bcd5-e5106ee608c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{e3178742-f058-4633-91ce-0e19032c9715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\GBuffer">
+      <UniqueIdentifier>{a12a1639-9ec7-42fa-97cd-ba7ca87b3177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\Lights">
+      <UniqueIdentifier>{9fc88307-0a22-43e4-904a-e3fa55da5300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\Utils">
+      <UniqueIdentifier>{bcbbc9ed-c630-4458-a69d-8536012cb43f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\Shadows">
+      <UniqueIdentifier>{7826bf93-7b31-4562-b6d3-a0fe9db34e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SMAA">
+      <UniqueIdentifier>{2f1b735c-7e2c-4f36-bf14-bddd746fb9fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SMAA">
+      <UniqueIdentifier>{16a7783d-682a-4551-b7ec-94e26646c575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\SMAA">
+      <UniqueIdentifier>{ffe8e004-050b-48f3-bfd0-247aae4a1087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\SSR">
+      <UniqueIdentifier>{26df55f0-55cb-4ad6-af7c-b8fb4add874d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SSR">
+      <UniqueIdentifier>{81a02a1d-8ed1-4127-84d6-d516e1589187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SSR">
+      <UniqueIdentifier>{1103dbe1-ceb1-42cc-9cf0-f7e830a7df0f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\MyView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MyController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MLK\GlStateManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MLK\MaterialManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MLK\MeshManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MLK\ShaderManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MLK\UniformManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MLK\MeshUtils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MLK\ShaderStructs.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MLK\ShaderUtils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MLK\Utils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MLK\SMAA\SMAA.cpp">
+      <Filter>Source Files\SMAA</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MLK\SSR\SSR.cpp">
+      <Filter>Source Files\SSR</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MLK\Profiler.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\MyView.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MyController.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MLK\GlStateManager.hpp">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MLK\MaterialManager.hpp">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MLK\MeshManager.hpp">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MLK\ShaderManager.hpp">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MLK\UniformManager.hpp">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MLK\MeshUtils.hpp">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MLK\ShaderStructs.hpp">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MLK\ShaderUtils.hpp">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MLK\Utils.hpp">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MLK\SMAA\SMAA.hpp">
+      <Filter>Header Files\SMAA</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MLK\SMAA\AreaTex.h">
+      <Filter>Header Files\SMAA</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MLK\SMAA\SearchTex.h">
+      <Filter>Header Files\SMAA</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MLK\SSR\SSR.hpp">
+      <Filter>Header Files\SSR</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MLK\Profiler.hpp">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="doc\readme.txt">
+      <Filter>Document Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <TygraShader Include="shaders\GBufferFS.glsl">
+      <Filter>Shader Files\GBuffer</Filter>
+    </TygraShader>
+    <TygraShader Include="shaders\GBufferVS.glsl">
+      <Filter>Shader Files\GBuffer</Filter>
+    </TygraShader>
+    <TygraShader Include="shaders\AmbientFS.glsl">
+      <Filter>Shader Files\Lights</Filter>
+    </TygraShader>
+    <TygraShader Include="shaders\PointLightFS.glsl">
+      <Filter>Shader Files\Lights</Filter>
+    </TygraShader>
+    <TygraShader Include="shaders\QuadVS.glsl">
+      <Filter>Shader Files\Lights</Filter>
+    </TygraShader>
+    <TygraShader Include="shaders\SpotLightFS.glsl">
+      <Filter>Shader Files\Lights</Filter>
+    </TygraShader>
+    <TygraShader Include="shaders\ShaderStructures.glsl">
+      <Filter>Shader Files\Utils</Filter>
+    </TygraShader>
+    <TygraShader Include="shaders\LightVolumeVS.glsl">
+      <Filter>Shader Files\Lights</Filter>
+    </TygraShader>
+    <TygraShader Include="shaders\ShadowFS.glsl">
+      <Filter>Shader Files\Shadows</Filter>
+    </TygraShader>
+    <TygraShader Include="shaders\ShadowVS.glsl">
+      <Filter>Shader Files\Shadows</Filter>
+    </TygraShader>
+    <TygraShader Include="shaders\BlendFS.glsl">
+      <Filter>Shader Files\SMAA</Filter>
+    </TygraShader>
+    <TygraShader Include="shaders\BlendVS.glsl">
+      <Filter>Shader Files\SMAA</Filter>
+    </TygraShader>
+    <TygraShader Include="shaders\EdgeFS.glsl">
+      <Filter>Shader Files\SMAA</Filter>
+    </TygraShader>
+    <TygraShader Include="shaders\ResolveFS.glsl">
+      <Filter>Shader Files\SMAA</Filter>
+    </TygraShader>
+    <TygraShader Include="shaders\ResolveVS.glsl">
+      <Filter>Shader Files\SMAA</Filter>
+    </TygraShader>
+    <TygraShader Include="shaders\SMAA.glsl">
+      <Filter>Shader Files\SMAA</Filter>
+    </TygraShader>
+    <TygraShader Include="shaders\EdgeVS.glsl">
+      <Filter>Shader Files\SMAA</Filter>
+    </TygraShader>
+    <TygraShader Include="shaders\SpotShadowFS.glsl">
+      <Filter>Shader Files\Shadows</Filter>
+    </TygraShader>
+    <TygraShader Include="shaders\SSRFS.glsl">
+      <Filter>Shader Files\SSR</Filter>
+    </TygraShader>
+  </ItemGroup>
+</Project>
